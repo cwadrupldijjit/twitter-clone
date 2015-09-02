@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 		
-		<link rel="stylesheet" href="bower_components/bootstrap/css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
 		<link rel="stylesheet" href="css/styles.css" type="text/css" />
 	</head>
 	<body>
@@ -12,7 +12,7 @@
 			<div id="dashboard">
 				<div id="profile-summary">
 					<div class="content">
-						<img class='avatar' src='img/alagoon.jpg' />
+						<img class='avatar' src='img/alagoon.jpg' data-toggle="tooltip" data-placement="top" title="You" />
 						<p>Your Name Here</p>
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 					<!-- HINT: jQuery ".prepend" method -->
 					<div class="tweet">
 						<div class="content">
-							<img class="avatar" src="img/damenleeturks.jpg" />
+							<img class="avatar" src="img/damenleeturks.jpg" data-toggle="tooltip" title="@mybff" />
 							<strong class="fullname">My BFF</strong>
 							<span class="username">@mybff</span>
 
@@ -79,8 +79,8 @@
 
 										<!-- BLACK DIAMOND: Implement the Bootstrap tooltips for when you hover over a user’s avatar image -->
 										<!-- HINT: Bootstrap has good documentation =) -->
-										<img src="img/alagoon.jpg" data-toggle="tooltip" data-placement="left" title="testing" />
-										<img src="img/vklimenko.jpg" />
+										<img src="img/alagoon.jpg" data-toggle="tooltip" title="You" />
+										<img src="img/vklimenko.jpg" data-toggle="tooltip" title="@vlimenko" />
 									</div>
 								</div>
 
@@ -91,7 +91,7 @@
 								</div>
 							</div>
 							<div class="reply">
-								<img class="avatar" src="img/alagoon.jpg" />
+								<img class="avatar" src="img/alagoon.jpg" data-toggle="tooltip" data-placement="top" title="You" />
 								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>
 							</div>
 						</div>
@@ -99,7 +99,7 @@
 
 					<div class="tweet">
 						<div class="content">
-							<img class="avatar" src="img/funwatercat.jpg" />
+							<img class="avatar" src="img/funwatercat.jpg" data-toggle="tooltip" title="@theonion" />
 							<strong class="fullname">The Onion</strong>
 							<span class="username">@theonion</span>
 							<p class="tweet-text">“I'm able to speak confidently about a wide range of subjects, so it’s probably hard for most women to follow.” http://onion.com/1aWfKwf </p>
@@ -122,8 +122,8 @@
 								</div>
 								<div class="users-interact">
 									<div>
-										<img src="img/jennyshen.jpg" />
-										<img src="img/damenleeturks.jpg" />
+										<img src="img/jennyshen.jpg" data-toggle="tooltip" title="@HarvardBiz" />
+										<img src="img/damenleeturks.jpg" data-toggle="tooltip" data-placement="top" title="@mybff" />
 									</div>
 								</div>
 								<div class="time">
@@ -131,15 +131,15 @@
 								</div>
 							</div>
 							<div class="reply">
-								<img class="avatar" src="img/alagoon.jpg" />
-								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>
+								<img class="avatar" src="img/alagoon.jpg" data-toggle="tooltip" data-placement="top" title="You" />
+								<textarea class="tweet-compose" placeholder="Reply to @theonion"/></textarea>
 							</div>
 						</div>
 					</div><!-- .tweet -->
 
 					<div class="tweet">
 						<div class="content">
-							<img class="avatar" src="img/jennyshen.jpg" />
+							<img class="avatar" src="img/jennyshen.jpg" data-toggle="tooltip" title="@HarvardBiz" />
 							<strong class="fullname">Harvard Biz Review</strong>
 							<span class="username">@HarvardBiz</span>
 							<p class="tweet-text">It is possible to work with a loved one without ruining the relationship http://s.hbr.org/15FDIri </p>
@@ -162,8 +162,8 @@
 								</div>
 								<div class="users-interact">
 									<div>
-										<img src="img/vklimenko.jpg" />
-										<img src="img/funwatercat.jpg" />
+										<img src="img/vklimenko.jpg" data-toggle="tooltip" title="@vlimenko" />
+										<img src="img/funwatercat.jpg" data-toggle="tooltip" title="@theonion" />
 									</div>
 								</div>
 								<div class="time">
@@ -171,8 +171,8 @@
 								</div>
 							</div>
 							<div class="reply">
-								<img class="avatar" src="img/alagoon.jpg" />
-								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>
+								<img class="avatar" src="img/alagoon.jpg" data-toggle="tooltip" data-placement="top" title="You" />
+								<textarea class="tweet-compose" placeholder="Reply to @HarvardBiz"/></textarea>
 							</div>
 						</div>
 					</div><!-- .tweet -->

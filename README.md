@@ -29,7 +29,7 @@ Use this repo as the starting point for the Twitter clone project:
 ### Here's a list of (in my opinion) the jQuery 'Need to Knows'
 * $(document).ready(function(){});
 * $(“element”)
-* $(‘‘idOrClass”)
+* $("idOrClass”)
 * $(“idOrClass, idOrClass”)
 *  var myNameEle = $(‘\<span>Tyler McGinnis \</span>’)
 * $(‘idOrClass’).prepend(myNameEle);
